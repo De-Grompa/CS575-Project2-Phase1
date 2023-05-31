@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MovieService } from './movie.service';
+import { MovieService } from '../movie.service';
 
 ({
   selector: 'app-movie-filter',
@@ -7,7 +7,7 @@ import { MovieService } from './movie.service';
   styleUrls: ['./movie-filter.component.css']
 })
 export class MovieFilterComponent {
-  selectedGenre: string;
+  selectedGenre!: string;
 
   constructor(private movieService: MovieService) {}
 
