@@ -1,4 +1,5 @@
 export interface Movie {
+  [key: string]: any;
   id: number;
   popularity: number;
   budget: number;

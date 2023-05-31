@@ -7,29 +7,13 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-
-<!-- Styling -->
-<style>
-  button {
-    background-color: #4CAF50; /* Green */
-    border: black;
-    border-radius: 5%;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  h1 {
-    text-align: center;
-  }
-</style>
-
-
+<nav>
+  <form action="movie-filter/movie-filter.component.html"> 
+    <input type="submit" value="Filter Movies">
+  </form>
+</nav>
 <h1>Welcome to {{ title }}!</h1>
-<button onclick="window.location.href = 'http://localhost:4200/';">Home</button>
-<button onclick="window.location.href = 'movie-form';">Movie Form</button>
+
 
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
