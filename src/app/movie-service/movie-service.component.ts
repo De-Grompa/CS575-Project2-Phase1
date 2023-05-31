@@ -1,8 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Movie } from '../movie.model';
+import { Component } from '@angular/core';
 
-({
-  providedIn: 'root'
+@Component({
+  selector: 'app-movie-service',
+  templateUrl: './movie-service.component.html',
+  styleUrls: ['./movie-service.component.css']
 })
 export class MovieServiceComponent {
   // Sample movie data

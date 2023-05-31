@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MovieService } from '../movie.service';
 
-({
+@Component({
   selector: 'app-movie-filter',
   templateUrl: './movie-filter.component.html',
   styleUrls: ['./movie-filter.component.css']
