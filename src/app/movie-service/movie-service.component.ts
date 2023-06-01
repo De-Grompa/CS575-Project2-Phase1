@@ -17,7 +17,7 @@ export class MovieServiceComponent {
       revenue: 1000000000,
       title: 'Spiderman: No Way Home',
       cast: ['Tom Holland', 'Zendaya', 'Jacob Batalon'],
-      homepage: 'https://www.spiderman-movie.com',
+      homepage: 'https://www.spidermannowayhome.movie/',
       director: 'Jon Watts',
       shortSummary: 'The third installment of the Spiderman franchise.',
       genres: ['Action', 'Adventure'],

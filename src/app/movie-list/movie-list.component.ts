@@ -8,9 +8,4 @@ import { Movie } from '../movie.model';
 })
 export class MovieListComponent {
   @Input() movies!: Movie[];
-
-  showSummary(movie: Movie) {
-    // Display movie summary when hovering over the title
-    alert(movie.shortSummary);
-  }
 }
