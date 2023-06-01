@@ -1,3 +1,4 @@
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -12,11 +13,24 @@
   <button (click)="cycleSorting()" [title]="currentSorting">{{currentSorting}} Movies</button>
 </nav>
 <h1>Welcome to {{ title }}!</h1>
+<form
+  class="example"
+  action="/action_page.php"
+  style="margin: auto; max-width: 300px"
+>
+  <input type="text" placeholder="Search.." name="search2" />
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 <h2>Here are the movies we have:</h2>
 <ul>
   <li *ngFor="let movie of movies">
     <a href="{{movie.homepage}}" title="{{movie.shortSummary}}">{{ movie.title }}</a>
   </li>
+</ul>
 
 
 
