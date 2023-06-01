@@ -96,6 +96,7 @@ export class AppComponent {
   cycleSorting(): void {
     this.currentSortingIndex = (this.currentSortingIndex + 1) % this.sortingOptions.length;
     this.currentSorting = this.sortingOptions[this.currentSortingIndex];
+    this.sortMovies();
   }
 
   sortMovies(): void {

@@ -28,7 +28,10 @@ export class MovieServiceComponent {
   ];
 
   getFilteredMovies(genre: string): Movie[] {
-    
+    return this.movies;
+  }
+
+  getMovies(): Movie[] {
     return this.movies;
   }
 }
