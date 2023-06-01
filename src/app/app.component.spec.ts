@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'CS575-Project2-Phase1'`, () => {
+  it(`should have as title 'CS575-Project2-Phase1 - Movie Filter'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('CS575-Project2-Phase1');
+    expect(app.title).toEqual('CS575-Project2-Phase1 - Movie Filter');
   });
 
   it('should render title', () => {

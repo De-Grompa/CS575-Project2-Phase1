@@ -1,4 +1,4 @@
-nav form input[type=submit]{
+nav form input {
     background-color: #4CAF50; /* Green */
     border: black;
     border-radius: 5%;
